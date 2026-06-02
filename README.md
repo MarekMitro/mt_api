@@ -104,6 +104,4 @@ Restore the device to factory calibration.
 
 ## Calibration Procedure Flowchart
 
-> Re-generate by running `python mat.py` whenever the procedure changes.
-
 ![Maintenance Tool Flowchart](MT_flowchart.png)
