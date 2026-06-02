@@ -1,5 +1,6 @@
 # Photoneo Maintenance Tool – API Reference & Procedure Flowchart
 
+
 ---
 
 ## API Reference
@@ -100,8 +101,24 @@ Restore the device to factory calibration.
 - **Input:** —
 - **Output:** `None`. Raises `PhoXiError` if restore fails.
 
+
+
 ---
 
 ## Calibration Procedure Flowchart
 
+---
+
 ![Maintenance Tool Flowchart](MT_flowchart.png)
+
+
+
+---
+
+## Robot Client Development
+
+---
+Following examples can be used as basis for developing client communication
+- **UR_MT_ClientExample.script:** — single maintennce session process for Universal robots
+    - Ready to run, only requires setting up IP, port and 9 calibration waypoints titled p1, p2... p9
+- **Python_LocalhostClientSim.py:** - interactive localhost client for troubleshooting
