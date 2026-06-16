@@ -121,4 +121,4 @@ Restore the device to factory calibration.
 Following examples can be used as basis for developing client communication
 - **UR_MT_ClientExample.script:** — single maintennce session process for Universal Robots
     - Ready to run, only requires setting up IP, port and 9 calibration waypoints titled p1, p2... p9
-- **Python_LocalhostClientSim.py:** - interactive localhost client for troubleshooting
+- **MaintenanceTool_LocalhostClientSim.py:** - interactive localhost client for troubleshooting
