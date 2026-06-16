@@ -57,7 +57,7 @@ def handle_client(conn, addr, mt):
                             response = "NOK:Calibration already active (send STOP_CALIBRATION first)"
                         else:
                             try:
-                                device = mt.connect(serial, "./", "./ValidationTarget-M.json")
+                                device = mt.connect(serial)
                                 response = "OK"
                                 print(f"Device {serial} connected.")
                             except PhoXiError as e:
